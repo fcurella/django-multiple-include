@@ -10,11 +10,11 @@ def read(fname):
 requirements = []
 
 setup(
-    name = "Django Multiple Include",
+    name = "django-multiple-include",
     version = ".".join(map(str, __version__)),
-    description = "",
+    description = "A version of ``{% include %}`` that accepts multiple template names.",
     long_description = read('README.rst'),
-    url = '',
+    url = 'https://github.com/fcurella/django-multiple-include',
     license = 'MIT',
     author = 'Flavio Curella',
     author_email = 'flavio.curella@gmail.com',

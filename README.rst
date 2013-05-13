@@ -5,6 +5,9 @@ A version of ``{% include %}`` that accepts multiple template names.
 
 Usage
 -----
+::
+    $ pip install django-multiple-include
+
 Add ``multiple_include`` to ``INSTALLED_APPS``.
 
 Then, in your template::
